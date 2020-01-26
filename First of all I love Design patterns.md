@@ -1,3 +1,4 @@
+# Es6 Journey Through Design Patterns
 First of all I love Design patterns readings! The same as reality, the love isn’t always shared, 
 also the patterns aren’t always clear at a first sight!
 Over the years, trying to write clean and easy maintainable code, 
@@ -6,8 +7,11 @@ we start to recognize common problems and here is the main design patterns role:
 #### Reusable solution to a commonly occurring problem within a given context in software design.
 
 Last years I’m focused in JavaScript development, so it’s a great opportunity to experience myself with some patterns and their JavaScript equivalent.
+
 Several projects have passed, so now it’s my contribution and sharing experience time!
- I’ll share a high overview of the patterns I used, and these ones which caught my attention, along my JavaScript journey!
+I’ll share a high overview of the patterns I used, 
+and these ones which caught my attention, along my JavaScript journey!
+
 Keep in mind that the patterns in the article can be implemented in various ways.
 Here are the covered patterns:
 
@@ -84,7 +88,10 @@ const book = new Book('Design patterns', 'Programming', author)
 ```
 
 What’s the problem here? Good question! Imagine if the creation of Books requires many more related object
-creation with a lot of additional parameters . And now imagine you have several places where you’re creating Books in the same way. 
+creation with a lot of additional parameters . 
+
+And now imagine you have several places where you’re creating Books in the same way. 
+
 Boom! Now we’re having a complexity, that we have to find out how to manage it.
 
 Here’s how we can handle it with a Factory:
@@ -108,7 +115,8 @@ The benefits of Factory abstraction are:
 * Hide and reuse complex objects creation. Otherwise adding a new functionality to the creation process, 
 as a new related object for example, will require us to change all Books creations.
 
-* Decoupling Client code from concrete implementations. Without using `bookFactory` , Client code will be always coupled to a concreteBook object.
+* Decoupling Client code from concrete implementations. Without using `bookFactory` , 
+Client code will be always coupled to a concreteBook object.
  Having factory, we can change all `Book` objects easily with another one object.
 
 ## Observer
@@ -184,6 +192,7 @@ understandable and easy of use interface.
 #### Facade simplifies and hides the complexity
 
 There is a very good real-life example of the pattern — *The car starter engine*. As drivers, we just turn the key on and the car get started. 
+
 As simple as possible. Behind the scenes, many other car systems are involved (as battery, engine, fuel, etc.), 
 in order the car to start successfully, but they are hidden behind the starter.
 
@@ -251,8 +260,10 @@ const data = [
 
 Now imagine if we don’t have a such *Table Facade*, what we would do? 
 Would we call all the Table internals as [buildHeadings, buildRows](https://gist.github.com/jordan-enev/4e63529a4144629b01d2197784f0b4a0) 
+
 and always to compose the Table layout with Heading and Body components when we just want to use the Table? 
 Of course we won’t! Facade to the rescue!
+
 Comparing the Table example with the Car example, here the Table acts as the Car starter engine. 
 We just pass the data / turn on the key — and all the complexity is hidden from us.
 I know that the example is quite simple, but just imagine if we add searching functionality, sorting mechanism, etc.
@@ -345,7 +356,8 @@ It’s fine to **not** start with the design pattern approach firstly,
 when we’re developing something new and we still don’t know the feature’s pitfalls and specifics deeply.
 
 It’s perfectly fine and better to keep the things simple and easy to refactor, 
-unless we have enough understanding about the problem we’re trying to resolve. 
+unless we have enough understanding about the problem we’re trying to resolve.
+
 Once we have most of the details, then we can think for a pattern or implementation that will fit to our case. 
 Now it’s more probable to build a better solution (knowing the details), instead of predicting the future in the beginning of the feature.
 
