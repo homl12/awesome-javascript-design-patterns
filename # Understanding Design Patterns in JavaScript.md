@@ -423,7 +423,8 @@ class CarWithPowerLocks {
 class CarWithACandPowerLocks {
 }
 
-But with decorator pattern, we can create a base class `Car` and add the cost of different configuration to its object using the decorator functions. For example:
+But with decorator pattern, we can create a base class `Car` and add the 
+cost of different configuration to its object using the decorator functions. For example:
 
 ```
 class Car {
@@ -483,9 +484,11 @@ console.log(car.cost());
 
 # Conclusion
 We have learned about various design patterns used in 
-JavaScript, but there are design patterns that I haven’t covered here, which can be implemented in JavaScript.
+JavaScript, but there are design patterns that I haven’t covered here, 
+which can be implemented in JavaScript.
 While it’s important to know various design patterns, 
 it’s also equally important to not to overuse them. 
-Before using a design pattern, you should carefully consider if your problem fits that design pattern or not. 
+Before using a design pattern, 
+you should carefully consider if your problem fits that design pattern or not. 
 To know if a pattern fits your problem, 
 you should study the design pattern as well as the applications of that design pattern.
