@@ -109,7 +109,7 @@ If you have experience working with JavaScript, you are surely familiar with the
 with the term, a **callback function** is a function sent as a parameter (remember, JavaScript treats functions as first-class citizens) 
 to another function and gets executed after an event fires. This is usually used for subscribing to events such as a mouse click or a keyboard button press.
 
-![img](https://uploads.toptal.io/blog/image/125781/toptal-blog-image-1522333483007-ac9070c74c6ae7747cb2fa551667d8e5.png)
+![j2](https://uploads.toptal.io/blog/image/125781/toptal-blog-image-1522333483007-ac9070c74c6ae7747cb2fa551667d8e5.png)
 
 Each time an event, which has a listener attached to it, fires (otherwise the event is lost), 
 a message is being sent to a queue of messages which are being processed synchronously, 
