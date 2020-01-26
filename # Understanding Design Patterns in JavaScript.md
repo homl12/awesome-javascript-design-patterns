@@ -64,7 +64,8 @@ const myModule = {
   publicMethod: function() {
     privateMethod();
   }};
-  ```
+```
+  
 So we can call the `publicMethod()` which will, in turn, call the `privateMethod()`. For example:
 
 ```
@@ -125,8 +126,8 @@ For example:
 myRevealingModule.setName('Mark');
 // prints Name: Mark
 myRevealingModule.getName();
-
 ```
+
 # Advantages of Revealing Module pattern over Module Pattern:
 
 * We can change members from public to private and vice versa by modifying a single line in the return statement.
@@ -158,7 +159,6 @@ export function subtract(num1, num2) {
 function privateLog() {
   console.log('Private Function');
 }
-
 ```
 
 By adding the `export` keyword at end of the code containing names of functions and variables we want to export. For example:
@@ -221,12 +221,14 @@ export {sum as add, multiply};
 ```
 
 * **Renaming an import**
+
 ```
 // main.js
 import { add, multiply as mult } from './utils.js';
 console.log(add(3, 7));
 console.log(mult(3, 7));
 ```
+
 # Singleton Pattern
 A Singleton is an object which can only be instantiated only once. 
 A singleton pattern creates a new instance of a class if one doesn’t exist. 
@@ -285,6 +287,7 @@ const user2 = new User();
 // prints true
 console.log(user1 === user2); 
 ```
+
 When this constructor function is called, it checks if the `instance` object exists or not. 
 If the object doesn’t exist, it assigns the `this` variable to the `instance` variable. And if the object exists, it just returns that object.
 Singletons can also be implemented using the module pattern. For example:
@@ -422,6 +425,7 @@ class CarWithPowerLocks {
 }
 class CarWithACandPowerLocks {
 }
+```
 
 But with decorator pattern, we can create a base class `Car` and add the cost of different configuration to its object using the decorator functions. For example:
 
