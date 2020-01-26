@@ -53,7 +53,7 @@ Addy Osmani's Learning JavaScript Design Patterns(https://addyosmani.com/resourc
 
 #### Abstract Factory
 
-![1](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/abstract_factory/abstract_factory.png)
+![1abstract_factory.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/abstract_factory/abstract_factory.png)
 
 ```
 'use strict';
@@ -153,9 +153,9 @@ function init_AbstractFactory() {
 
 #### Builder
 
-![2](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/builder/builder.png)
+![2builder.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/builder/builder.png)
 
-![3](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/builder/builder_seq.png)
+![3builder_seq.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/builder/builder_seq.png)
 
 ```
 'use strict';
@@ -216,7 +216,7 @@ function init_Builder() {
 
 #### Factory Method
 
-![4](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/factory/factory.png)
+![4factory.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/factory/factory.png)
 
 ```
 'use strict';
@@ -268,7 +268,7 @@ function init_FactoryMethod() {
 
 #### Prototype
 
-![5](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/prototype/prototype.png)
+![5prototype.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/prototype/prototype.png)
 
 ```
 'use strict';
@@ -326,7 +326,7 @@ function init_Prototype () {
 
 #### Singleton
 
-![6](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/singleton/singleton.png)
+![6singleton.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/singleton/singleton.png)
 
 ```
 'use strict';
@@ -367,7 +367,7 @@ function init_Singleton() {
 ## Structural Patterns
 #### Adapter
 
-![adapter.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/adapter/adapter.png)
+![7adapter.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/adapter/adapter.png)
 
 ```
 'use strict';
@@ -423,7 +423,7 @@ function init_Adapter() {
 
 #### Bridge
 
-![Image of Yaktocat](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/bridge/bridge.png)
+![8bridge.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/bridge/bridge.png)
 
 ```
 'use strict';
@@ -496,7 +496,7 @@ function init_Bridge() {
 
 #### Composite
 
-![7](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/composite/composite.png)
+![9composite.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/composite/composite.png)
 
 ```
 'use strict';
@@ -572,7 +572,7 @@ function init_Composite() {
 
 #### Decorator
 
-![decorator.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/decorator/decorator.png)
+![10decorator.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/decorator/decorator.png)
 
 ```
 'use strict';
@@ -654,7 +654,7 @@ function init_Decorator() {
 
 #### Façade
 
-![facade.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/facade/facade.png)
+![11facade.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/facade/facade.png)
 
 ```
 'use strict';
@@ -804,7 +804,7 @@ class Facade {
 
 #### Flyweight
 
-![flyweight.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/flyweight/flyweight.png)
+![12flyweight.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/flyweight/flyweight.png)
 
 ```
 'use strict';
@@ -882,7 +882,7 @@ function init_Flyweight() {
 
 #### Proxy
 
-![proxy.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/proxy/proxy.png)
+![13proxy.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/proxy/proxy.png)
 
 ```
 'use strict';
@@ -928,7 +928,7 @@ function init_Proxy() {
 
 #### Chain of Responsibility
 
-![chain_of_responsibility.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/chain_of_responsibility/chain_of_responsibility.png)
+![14chain_of_responsibility.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/chain_of_responsibility/chain_of_responsibility.png)
 
 ```
 'use strict';
@@ -982,9 +982,9 @@ function init_ChainofResponsibility() {
 
 #### Command
 
-![command.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/command/command.png)
+![15command.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/command/command.png)
 
-![command_seq.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/command/command_seq.png)
+![16command_seq.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/command/command_seq.png)
 
 ```
 'use strict';
@@ -1042,7 +1042,7 @@ function init_Command() {
 
 #### Interpreter
 
-![interpreter.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/interpreter/interpreter.png)
+![17interpreter.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/interpreter/interpreter.png)
 
 ```
 'use strict';
@@ -1099,7 +1099,7 @@ function init_Interpreter() {
 
 #### Iterator
 
-![iterator.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/iterator/iterator.png)
+![18iterator.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/iterator/iterator.png)
 
 ```
 'use strict';
@@ -1174,7 +1174,7 @@ function init_Iterator() {
 
 #### Mediator
 
-![mediator.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/mediator/mediator.png)
+![19mediator.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/mediator/mediator.png)
 
 ```
 'use strict';
@@ -1258,9 +1258,9 @@ function init_Mediator() {
 
 #### Memento
 
-![memento.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/memento/memento.png)
+![20memento.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/memento/memento.png)
 
-![memento_seq.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/memento/memento_seq.png)
+![21memento_seq.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/memento/memento_seq.png)
 
 ```
 'use strict';
@@ -1324,9 +1324,9 @@ function init_Memento() {
 
 #### Observer
 
-![observer.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/observer/observer.png)
+![22observer.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/observer/observer.png)
 
-![observer_seq.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/observer/observer_seq.png)
+![23observer_seq.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/observer/observer_seq.png)
 
 ```
 'use strict';
@@ -1405,7 +1405,7 @@ function init_Observer() {
 
 #### State
 
-![state.png]https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/state/state.png)
+![24state.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/state/state.png)
 
 ```
 'use strict';
@@ -1467,7 +1467,7 @@ function init_State() {
 
 #### Strategy
 
-![strategy.png]https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/strategy/strategy.png)
+![25strategy.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/strategy/strategy.png)
 
 ```
 'use strict';
@@ -1531,7 +1531,7 @@ function init_Strategy() {
 
 #### Template Method
 
-![template_method/template_method.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/template_method/template_method.png)
+![26template_method.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/template_method/template_method.png)
 
 ```
 'use strict';
@@ -1575,9 +1575,9 @@ function init_TemplateMethod() {
 
 #### Visitor
 
-![Image of Yaktocat](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/visitor/visitor.png)
+![27visitor.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/visitor/visitor.png)
 
-![Image of Yaktocat](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/visitor/visitor_seq.png)
+![28visitor_seq.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/visitor/visitor_seq.png)
 
 ```
 'use strict';
