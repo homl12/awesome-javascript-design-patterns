@@ -31,8 +31,7 @@ one of which is Module pattern.
 
 Tip: Use [Bit](https://github.com/teambit/bit) to build faster with components. 
 It helps your team share and reuse components, and use them to build new applications. Give it a try.
-![img](https://bit.dev/)
-React spinners with Bit: Choose, Play, Install
+
 Unlike other programming languages, JavaScript doesn’t have access modifiers, that is, you can’t declare a variable as private or public. 
 So the Module pattern is also used to emulate the concept of encapsulation.
 This pattern uses IIFE (immediately-invoked function expression), closures and function scope to simulate this concept. For example:
