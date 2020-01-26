@@ -53,7 +53,7 @@ Addy Osmani's Learning JavaScript Design Patterns(https://addyosmani.com/resourc
 
 #### Abstract Factory
 
-![1](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/abstract_factory/abstract_factory.png)
+![1abstract_factory.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/abstract_factory/abstract_factory.png)
 
 ```
 'use strict';
@@ -1405,7 +1405,7 @@ function init_Observer() {
 
 #### State
 
-![state.png]https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/state/state.png)
+![24state.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/state/state.png)
 
 ```
 'use strict';
@@ -1467,7 +1467,7 @@ function init_State() {
 
 #### Strategy
 
-![strategy.png]https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/strategy/strategy.png)
+![25strategy.png](https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/strategy/strategy.png)
 
 ```
 'use strict';
